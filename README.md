@@ -12,3 +12,4 @@
 - I wrote this project in UIUX without a file. I made it look like a bug.
 - (Timer ends in) 1 / 1 / 2025
 - (Live site link) -> [https://ahmed101na.github.io/Countdown-Timer/](https://ahmed101na.github.io/Countdown-Timer/)
+- I wrote the JavaScript behind a teacher, so this project is training me on JavaScript.
