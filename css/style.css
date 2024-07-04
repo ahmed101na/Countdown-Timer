@@ -1,0 +1,64 @@
+/* Import fonts from Google Fonts library 📥*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* General setting for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #b5c6e0;
+}
+
+/* Container responsible for all elements */
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* The container responsible for the timer and all the elements inside it */
+.container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 60px;
+  font-weight: 200;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+/* Containers responsible for timer information */
+.content {
+  gap: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-timer span {
+  font-size: 85px;
+  font-weight: 900;
+}
+
+.info-timer p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Responsive to all screens */
+@media (max-width: 1379px) {
+  .content {
+    gap: 150px;
+    flex-wrap: wrap;
+  }
+  .container {
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+}
